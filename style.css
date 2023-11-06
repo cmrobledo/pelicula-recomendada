@@ -1,0 +1,55 @@
+* {
+  margin: 0;;
+  padding: 0;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: url(Imagenes/fondo-cine.jpg) no-repeat center center/cover;
+  text-align: center;
+}
+
+.centrar-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contenedor{
+  height: 600px;
+  width: 70%;
+  background-color: rgb(176, 184, 192);
+  border: 3px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 40px 10px 40px 10px;
+}
+
+button {
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+  background-color: red;
+  margin: 10px;
+  border: 2px solid red;
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+}
+
+button:hover {
+  background-color: rgb(102, 15, 15);
+}
+
+input {
+ height: 25px;
+ width: 150px;
+ font-weight: bold;
+ text-align: center;
+ font-size: large;
+}

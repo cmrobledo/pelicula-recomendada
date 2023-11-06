@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link type="image/png" rel="icon" href="Imagenes/Favicon.png" />
+    <title>Película Recomendada</title>
+  </head>
+
+  <body class="centrar-flex">
+    <div id="contenedor">
+      <h1>¡Bienvenidos al cine!</h1><br><br>
+      <h3>--- Menú ---</h3><br>
+      <p>
+        Queremos hacer de tu visita, una experencia más placentera. Para eso
+        ingresa tu edad y selecciona el género que más te guste, luego
+        recomendaremos tu película.
+      </p><br><br>
+      <p><b>Edad:</b> <input id="edad" type="number" min="1" /></p><br><br>
+      <div id="botones">
+        <button onclick="recomendar('drama')">Drama</button>
+        <button onclick="recomendar('accion')">Acción</button>
+        <button onclick="recomendar('comedia')">Comedia</button>
+        <button onclick="recomendar('ficcion')">Ficción</button>
+      </div><br>
+      <h3>Nuestra recomendación:</h3><br>
+      <h2 id="recomendacion" style="color:red; font-weight:bold;" ></h2>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
